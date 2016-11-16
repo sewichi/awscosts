@@ -5,6 +5,7 @@ class AWSCosts::Region
 
   SUPPORTED =  {
     'us-east-1' => { :full_name => 'US (Northern Virginia)', :price_mapping => 'us-east-1' },
+    'us-east-2' => { :full_name => 'US (Ohio)', :price_mapping => 'us-east-2' },
     'us-west-1' => { :full_name => 'US (Northern California)', :price_mapping => 'us-west-1' },
     'us-west-2' => { :full_name => 'US (Oregon)', :price_mapping => 'us-west-2' },
     'eu-west-1' => { :full_name => 'EU (Ireland)', :price_mapping => 'eu-west-1' },
